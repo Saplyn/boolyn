@@ -1,0 +1,6 @@
+[book]
+authors = ["saplyn"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Lyn Notebook"
