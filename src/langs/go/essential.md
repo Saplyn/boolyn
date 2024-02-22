@@ -5,6 +5,7 @@
 Go programs express error state with `error` values, a built-in interface.
 
 ```go
+// https://go.dev/tour/methods/19
 // the error type
 type error interface {
     Error() string
@@ -40,6 +41,7 @@ The type parameters of a function appear between brackets, before the
 function's arguments.
 
 ```go
+// https://go.dev/tour/generics/1
 // generic function
 func Index[T comparable](s []T, x T) int {
     for i, v := range s {
@@ -62,6 +64,7 @@ type Stack[T any] struct {
 A goroutine is a lightweight thread managed by the Go runtime.
 
 ```go
+// https://go.dev/tour/concurrency/1
 func say(s string) {
     for i := 0; i < 5; i++ {
         time.Sleep(100 * time.Millisecond)
@@ -82,10 +85,7 @@ values with the channel operator `<-`. By default, sends and
 receives block until the other side is ready.
 
 ```go
-package main
-
-import "fmt"
-
+// https://go.dev/tour/concurrency/2
 func sum(s []int, c chan int) {
     sum := 0
     for _, v := range s {
@@ -113,6 +113,7 @@ Receivers can test whether a channel has been closed by assigning a second
 parameter to the receive expression.
 
 ```go
+// https://go.dev/tour/concurrency/4
 func fibonacci(n int, c chan int) {
     x, y := 0, 1
     for i := 0; i < n; i++ {
@@ -124,8 +125,10 @@ func fibonacci(n int, c chan int) {
 }
 
 func main() {
+    // make a buffered channel
     c := make(chan int, 10)
     go fibonacci(cap(c), c)
+    // receive from the channel until it's closed
     for i := range c {
         fmt.Println(i)
     }
@@ -139,6 +142,7 @@ operations. A `select` blocks until one of its cases can run, then it
 executes that case. It chooses one at random if multiple are ready.
 
 ```go
+// https://go.dev/tour/concurrency/6
 func main() {
     tick := time.Tick(100 * time.Millisecond)
     boom := time.After(500 * time.Millisecond)

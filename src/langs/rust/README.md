@@ -17,9 +17,8 @@ in 2015.
 
 ## Sample Program (Guessing Game)
 
-> <https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html>
-
 ```rust,noplayground
+// https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html
 use rand::Rng; // external crate
 use std::cmp::Ordering;
 use std::io;
