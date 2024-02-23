@@ -130,7 +130,7 @@ valid as long as we need them to be. For details, see
 
 Note that lifetime annotations do not define the lifetime of references, but
 bridge the relationship between them. The actual lifetime is determined by the
-scope of the references.
+value and reference flow.
 
 ```rust,noplayground
 // lifetime annotation
