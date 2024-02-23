@@ -34,6 +34,7 @@
 ## Books, Articles & Blog Posts
 
 - [The Little Book of Rust Macros](https://veykril.github.io/tlborm/): A book on Rust macros.
+- [Rust for Rustaceans](https://rust-for-rustaceans.com/): The book to read after reading *The Book*.
 - [Rust Web Framework Comparison](https://github.com/flosse/rust-web-framework-comparison): A comparison of some web frameworks and libs written in Rust.
 - [Pin, Unpin, and why Rust needs them](https://blog.cloudflare.com/pin-and-unpin-in-rust/): A blog post about `Pin` and `Unpin` in Rust.
 - [Structuring, testing and debugging procedural macro crates](https://ferrous-systems.com/blog/testing-proc-macros/): A blog post about writing procedural macros in Rust.
