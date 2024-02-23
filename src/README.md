@@ -3,7 +3,12 @@
 ## "What is this?"
 
 This is a notebook for me, Saplyn. It acts as a personal knowledge index and
-cheatsheet. It's primarily intended for my own use.
+cheatsheet. It's primarily intended for my own use. I'm publishing it simply
+because it makes it easier for me to access it when I'm away from my computer.
+
+However, you may find it useful as well, and that's great! I'm happy to help.
+Also, if you find any errors or inaccuracies, it's welcome to open an issue or
+a pull request to correct it.
 
 ## "What this isn't..."
 
