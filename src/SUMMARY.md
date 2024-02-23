@@ -4,6 +4,8 @@
 
 # Programming Languages
 
+- [Understandings](langs/understandings.md)
+
 - [C](langs/c/README.md)
   - [Basic Syntax](langs/c/syntax.md)
   - [Pointer](langs/c/pointer.md)
@@ -62,8 +64,8 @@
 
 # Web Development
 
-- [JavaScript]()
-  - [Basic Syntax]()
+- [JavaScript](web/javascript/README.md)
+  - [Basic Syntax](web/javascript/syntax.md)
   - [Node]()
   - [Resources]()
   - [Libraries Memo]()
@@ -80,4 +82,4 @@
 
 - [Docker]()
 
-
+- [GitHub]()
