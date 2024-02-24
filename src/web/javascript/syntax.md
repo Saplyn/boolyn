@@ -33,7 +33,9 @@ symbol     // guaranteed unique value type
 // `%` is the remainder of the division
 
 // relational
-== != >= <= > <
+== !=    // loss equality
+=== !==  // strict equality
+>= <= > <
 
 // logical
 && || !
