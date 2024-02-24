@@ -7,3 +7,7 @@ title = "Lyn Notebook"
 
 [output.html.fold]
 enable = true
+
+[output.html]
+git-repository-url = "https://github.com/Saplyn/saplyn.github.io"
+edit-url-template = "https://github.com/Saplyn/saplyn.github.io/edit/main/{path}"
