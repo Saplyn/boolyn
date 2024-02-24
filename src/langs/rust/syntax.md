@@ -22,7 +22,7 @@ let score = 90;        // immutable variable
 let first_name: char;  // type annotation, optional
 let mut height = 1.75; // mutable variable
 
-// constant
+// constant (computable at compile time)
 const MAX: i32 = 100;  // requires type annotation
 const PI: f64 = 3.14;  // requires initialization too
 
