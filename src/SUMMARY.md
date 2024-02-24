@@ -66,13 +66,13 @@
 
 - [JavaScript](web/javascript/README.md)
   - [Basic Syntax](web/javascript/syntax.md)
-  - [Node]()
-  - [Resources]()
-  - [Libraries Memo]()
+  - [Node.js]()
 
 - [HTML]()
 
 - [CSS]()
+
+- [Vue]()
 
 # Tools
 
