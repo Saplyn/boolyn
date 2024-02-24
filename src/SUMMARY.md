@@ -50,8 +50,8 @@
   - [Resources]()
   - [Libraries Memo]()
 
-- [Python]()
-  - [Basic Syntax]()
+- [Python](langs/python/README.md)
+  - [Basic Syntax](langs/python/syntax.md)
   - [Resources]()
   - [Packages Memo]()
 
