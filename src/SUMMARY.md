@@ -62,6 +62,16 @@
   - [Packages Memo]()
   - [Unsorted Notes](langs/haskell/draft.md)
 
+# Database Implementations
+
+- [SQL Server]()
+
+- [MySQL]()
+
+- [PostgreSQL]()
+
+- [SurrealDB]()
+
 # Web Development
 
 - [JavaScript](web/javascript/README.md)
@@ -73,6 +83,8 @@
 - [CSS]()
 
 - [Vue]()
+
+- [Leptos](web/leptos/README.md)
 
 # Tools
 
