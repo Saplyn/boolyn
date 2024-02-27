@@ -85,8 +85,6 @@
   - [SQL Programming](db/sqlserver/programming.md)
   - [Security](db/sqlserver/security.md)
 
-- [MySQL]()
-
 - [PostgreSQL]()
 
 - [SurrealDB]()
