@@ -80,7 +80,7 @@ let z: i32 = y as i32;
 ### Branching
 
 Branching in Rust is more powerful than just this, for details, see the
-[Pattern Matching chapter](pattern_matching.md).
+[Pattern Matching chapter](pattern.md).
 
 ```rust,noplayground
 // if-else expression (can "return" values)
