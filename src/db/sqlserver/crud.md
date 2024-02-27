@@ -1,65 +1,54 @@
 # Basic CRUD
 
-<div class="warning">
-
-**All examples are <u>NOT CHECKED</u> for correctness against a real database.**
-
-The check is not performed due to the lack of a real database at the time of
-writing to test against. This will be fixed shortly.
-
-</div>
-
 ## Create
 
 ```sql
-CREATE TABLE [dbo].[Employee](
-    [EmployeeID] [int] NOT NULL,
-    [FirstName] [varchar](50) NOT NULL,
-    [LastName] [varchar](50) NOT NULL,
+CREATE TABLE [person] (
+    [person_id] bigint PRIMARY KEY NOT NULL,
+    [name] varchar(255) NOT NULL
 );
 
-INSERT INTO [dbo].[Employee]
-    ([EmployeeID], [FirstName], [LastName])
+INSERT INTO [person] ([person_id], [name])
 VALUES
-    (1, 'John', 'Doe'),
-    (2, 'Jane', 'Doe');
+    (1, 'John'),
+    (2, 'Jane');
 
-CREATE INDEX [IX_Employee_EmployeeID]
-ON [dbo].[Employee] ([EmployeeID]);
+CREATE INDEX [idx_person_name]
+ON person (name);
 ```
 
 ## Read
 
 ```sql
-SELECT * FROM [dbo].[Employee];
+SELECT * FROM [person];
 
-SELECT [EmployeeID], [FirstName], [LastName]
-FROM [dbo].[Employee]
-WHERE [EmployeeID] = 1;
+SELECT [name]
+FROM [person]
+WHERE [name] = 'Jane';
 
-SELECT count(*) AS [Total]
-FROM [dbo].[Employee];
+SELECT count(*) AS [person_count]
+FROM [person];
 ```
 
 ## Update
 
 ```sql
-ALTER TABLE [dbo].[Employee]
-ADD [MiddleName] [varchar](50) NULL;
+ALTER TABLE [person]
+ADD [last_name] varchar(255) NULL;
 
-UPDATE [dbo].[Employee]
-SET [MiddleName] = 'D'
-WHERE [EmployeeID] = 1;
+UPDATE [person]
+SET [last_name] = 'Doe'
+WHERE [name] = 'Jane';
 
-ALTER TABLE [dbo].[Employee]
-DROP COLUMN [MiddleName];
+ALTER TABLE [person]
+DROP COLUMN [last_name];
 ```
 
 ## Delete
 
 ```sql
-DELETE FROM [dbo].[Employee]
-WHERE [EmployeeID] = 1;
+DELETE FROM [person]
+WHERE [name] = 'Jane';
 
-DROP TABLE [dbo].[Employee];
+DROP TABLE [person];
 ```
