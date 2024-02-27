@@ -2,10 +2,9 @@
 
 <div class="warning">
 
-**All examples are <u>NOT CHECKED</u> for correctness against a real database.**
+**This page is <u>IMCOMPLETE</u>**
 
-The check is not performed due to the lack of a real database at the time of
-writing to test against. This will be fixed shortly.
+This page is incomplete and is still being written.
 
 </div>
 
