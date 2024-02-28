@@ -19,7 +19,7 @@ SET @max_id = 100;
 SELECT @max_id = 100, @min_id = 1;
 
 -- SQL variables can only hold one value.
--- If multiple is assignedm at a time, the value of the last row is used.
+-- If multiple is assigned at a time, the value of the last row is used.
 SELECT @employee_name = [employee_name]
 FROM [employees]
 WHERE [employee_id] = 123;
