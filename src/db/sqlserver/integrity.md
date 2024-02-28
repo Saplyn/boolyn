@@ -1,13 +1,5 @@
 # Integrity
 
-<div class="warning">
-
-**This page is <u>INCOMPLETE</u>**
-
-This page is incomplete and is still being written.
-
-</div>
-
 ## Constraints
 
 ```sql
@@ -46,17 +38,22 @@ ADD CONSTRAINT [df_users_id]
 IDENTITY(1, 1);
 ```
 
-## Triggers
-
-The example below uses [SQL Programming](programming.md), refer to that page
-for more information.
-
-```sql
--- `CREATE TRIGGER`
--- `AFTER` & `INSTEAD OF`
-```
-
 ## Transactions
 
+Transactions are used to ensure that a series of SQL statements are executed as
+a single unit. If any of the statements fail, the entire transaction is rolled
+back.
+
 ```sql
+-- `BEGIN TRANSACTION` and `COMMIT TRANSACTION`
+BEGIN TRANSACTION;
+PRINT 'SQL statements...';
+PRINT 'SQL statements...';
+COMMIT TRANSACTION;
+
+-- `ROLLBACK` to undo the transaction
+BEGIN TRANSACTION;
+PRINT 'SQL statements...';
+PRINT 'Oops, something went wrong...';
+ROLLBACK;
 ```
