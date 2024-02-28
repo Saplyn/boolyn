@@ -25,7 +25,7 @@
   - [Fundamentals](langs/rust/fundamentals.md)
   - [Generic, Trait & Lifetime](langs/rust/generic_trait.md)
   - [Pattern Matching](langs/rust/pattern.md)
-  - [Function]()
+  - [Function](langs/rust/function.md)
   - [Macros](langs/rust/macros.md)
   - [Async]()
   - [Modules]()
