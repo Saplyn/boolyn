@@ -29,6 +29,7 @@
   - [Macros](langs/rust/macros.md)
   - [Async]()
   - [Modules]()
+  - [Advanced Concepts]()
   - [Resources](langs/rust/resources.md)
   - [Crates Memo](langs/rust/libs.md)
 
