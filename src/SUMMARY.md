@@ -29,7 +29,7 @@
   - [Macros](langs/rust/macros.md)
   - [Async]()
   - [Modules]()
-  - [Concepts]()
+  - [Concepts](langs/rust/concepts.md)
   - [Resources](langs/rust/resources.md)
   - [Crates Memo](langs/rust/libs.md)
 
