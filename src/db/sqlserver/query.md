@@ -42,7 +42,7 @@ SELECT DISTINCT [name] FROM [person];
 
 -- `TOP` & `WITH TIES`
 SELECT TOP 1 * FROM [person];
-SELECT TOP 1 WITH TIES * FROM [person];
+SELECT TOP 1 WITH TIES * FROM [person] ORDER BY [age] ASC;
 SELECT TOP 10 PERCENT * FROM [person] ORDER BY [age] ASC;
 
 -- `GROUP BY`
