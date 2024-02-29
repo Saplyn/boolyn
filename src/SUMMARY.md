@@ -88,7 +88,9 @@
 
 - [PostgreSQL]()
 
-- [SurrealDB]()
+- [SurrealDB](db/surrealdb/README.md)
+  - [Basics](db/surrealdb/basics.md)
+  - [Querying]()
 
 # Tools
 

@@ -6,3 +6,4 @@ Microsoft.
 ## Features
 
 - Relational
+- ACID compliant
