@@ -1,6 +1,8 @@
-# Basic CRUD
+# Basics
 
-## Create
+## CRUD
+
+### Create
 
 ```sql
 CREATE TABLE [person] (
@@ -17,7 +19,7 @@ CREATE INDEX [idx_person_name]
 ON person (name);
 ```
 
-## Read
+### Read
 
 ```sql
 SELECT * FROM [person];
@@ -30,7 +32,7 @@ SELECT count(*) AS [person_count]
 FROM [person];
 ```
 
-## Update
+### Update
 
 ```sql
 ALTER TABLE [person]
@@ -44,11 +46,17 @@ ALTER TABLE [person]
 DROP COLUMN [last_name];
 ```
 
-## Delete
+### Delete
 
 ```sql
 DELETE FROM [person]
 WHERE [name] = 'Jane';
 
 DROP TABLE [person];
+```
+
+## Using Database
+
+```sql
+USE [database_name];
 ```

@@ -80,7 +80,7 @@
 # Database Implementations
 
 - [SQL Server](db/sqlserver/README.md)
-  - [Basic CRUD](db/sqlserver/crud.md)
+  - [Basics](db/sqlserver/basics.md)
   - [Querying](db/sqlserver/query.md)
   - [Integrity](db/sqlserver/integrity.md)
   - [SQL Programming](db/sqlserver/programming.md)
