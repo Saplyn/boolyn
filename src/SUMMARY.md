@@ -96,7 +96,8 @@
 
 - [Git]()
 
-- [NeoVim]()
+- [NeoVim](tools/neovim/README.md)
+  - [Neo-Crafts](tools/neovim/crafts.md)
 
 - [Docker]()
 
