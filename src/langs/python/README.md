@@ -1,8 +1,8 @@
 # Python
 
-Python is a high-level, interpreted programming language. It is known for its
-simplicity and readability. Python is a great language for beginners and is
-widely used in data science and machine learning.
+[Python](https://www.python.org/) is a high-level, interpreted programming
+language. It is known for its simplicity and readability. Python is a great
+language for beginners and is widely used in data science and machine learning.
 
 ## Features
 

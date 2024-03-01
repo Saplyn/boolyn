@@ -1,7 +1,7 @@
 # SurrealDB
 
-SurrealDB is at it's core, a document database, but supports multiple database
-mental models.
+[SurrealDB](https://surrealdb.com/) is at it's core, a document database, but
+supports multiple database mental models.
 
 ## Features
 

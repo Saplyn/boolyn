@@ -1,7 +1,8 @@
 # Go
 
-Go is a statically typed, compiled programming language designed at Google.
-It's simple by design, and it's a great language for writing concurrent programs.
+[Go](https://go.dev/) is a statically typed, compiled programming language
+designed at Google. It's simple by design, and it's a great language for
+writing concurrent programs.
 
 ## Features
 

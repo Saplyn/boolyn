@@ -1,9 +1,10 @@
 # C++
 
-C++, or CPP, is an extension of the C programming language. Bjarne Stroustrup
-developed C++ in the early 1980s at Bell Labs, aiming to enhance C's
-capabilities with features such as object-oriented programming (OOP), generic
-programming, and improved type safety.
+[C++](https://en.cppreference.com/w/cpp/language), or CPP, is an extension of
+the C programming language. Bjarne Stroustrup developed C++ in the early 1980s
+at Bell Labs, aiming to enhance C's capabilities with features such as
+object-oriented programming (OOP), generic programming, and improved type
+safety.
 
 ## Features
 

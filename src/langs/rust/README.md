@@ -1,10 +1,10 @@
 # Rust
 
-Rust is a systems programming language that is performant, reliable, and
-productive. It is a multi-paradigm, general-purpose language that is safe
-and concurrent by design. Created by Graydon Hoare as a personal project
-in 2006 and later sponsored by Mozilla, it made its first stable release
-in 2015.
+[Rust](https://www.rust-lang.org/) is a systems programming language that is
+performant, reliable, and productive. It is a multi-paradigm, general-purpose
+language that is safe and concurrent by design. Created by Graydon Hoare as a
+personal project in 2006 and later sponsored by Mozilla, it made its first
+stable release in 2015.
 
 ## Features
 

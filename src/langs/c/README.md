@@ -1,9 +1,10 @@
 # C
 
-C, a foundational pillar in the realm of computer programming. Developed
-in the early 1970s by Dennis Ritchie at Bell Labs, it was designed to provide
-a powerful and flexible tool for system programming, offering low-level
-access to memory and hardware while maintaining a high degree of portability.
+[C](https://en.cppreference.com/w/c/language), a foundational pillar in the
+realm of computer programming. Developed in the early 1970s by Dennis Ritchie
+at Bell Labs, it was designed to provide a powerful and flexible tool for
+system programming, offering low-level access to memory and hardware while
+maintaining a high degree of portability.
 
 ## Features
 
