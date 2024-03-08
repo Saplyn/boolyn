@@ -68,14 +68,17 @@
 - [JavaScript](web/javascript/README.md)
   - [Basic Syntax](web/javascript/syntax.md)
   - [Node.js]()
+  - [Resources]()
 
 - [HTML]()
 
 - [CSS]()
 
 - [Vue]()
+  - [Basics]()
 
 - [Leptos](web/leptos/README.md)
+  - [Basics]()
 
 # Database Implementations
 
