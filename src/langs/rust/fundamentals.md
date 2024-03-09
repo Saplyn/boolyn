@@ -1,9 +1,16 @@
 # Fundamentals
 
-## Handy Macros
+## Macros
 
-Macros are powerful, they can be seen as "shortcuts" to write repetitive code.
-For details, see the [Macros chapter](macros.md). Here lists some commonly used
+Macros in rust are "code that writes code". For simplicity, they can be thought
+of as:
+
+- a function call, like: `println!()`
+- an attribute to add metadata to some item, like: `#[derive(Debug)]`
+- a way to define new syntax, like: `vec![]`
+
+Macros are powerful, for in-depth understanding and usage, see the
+[Macros chapter](macros.md). Here lists some commonly used
 macros.
 
 ```rust,noplayground
