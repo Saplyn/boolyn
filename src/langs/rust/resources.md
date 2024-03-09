@@ -33,6 +33,7 @@
 
 ## Books, Articles & Blog Posts
 
+- [Awesome Rust](https://github.com/rust-unofficial/awesome-rust): A curated list of Rust code and resources.
 - [The Little Book of Rust Macros](https://veykril.github.io/tlborm/): A book on Rust macros.
 - [Rust for Rustaceans](https://rust-for-rustaceans.com/): The book to read after reading *The Book*.
 - [Rust Web Framework Comparison](https://github.com/flosse/rust-web-framework-comparison): A comparison of some web frameworks and libs written in Rust.
