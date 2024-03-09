@@ -70,6 +70,9 @@
   - [Node.js]()
   - [Resources]()
 
+- [TypeScript]()
+  - [Typed JS]()
+
 - [HTML]()
 
 - [CSS]()
