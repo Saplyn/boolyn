@@ -125,8 +125,8 @@ impl Into<String> for Cat {
 
 Lifetimes are another kind of generic, but for references. Rather than ensuring
 that a type has the behavior we want, lifetimes ensure that references are
-valid as long as we need them to be. For details, see
-[The Book](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html).
+valid as long as we need them to be. For in-depth understanding, see
+[Understanding Lifetimes](concepts.md#understanding-lifetimes)
 
 Note that lifetime annotations do not define the lifetime of references, but
 bridge the relationship between them. The actual lifetime is determined by the
