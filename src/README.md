@@ -19,4 +19,4 @@ a pull request to correct it.
 
 ## About
 
-This book is created using [mdbook](https://rust-lang.github.io/mdBook/).
+This book is created using [mdBook](https://rust-lang.github.io/mdBook/).
