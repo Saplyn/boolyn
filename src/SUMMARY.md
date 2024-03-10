@@ -103,6 +103,7 @@
 # Tools
 
 - [Git]()
+  - [Basics]()
 
 - [NeoVim](tools/neovim/README.md)
   - [Neo-Crafts](tools/neovim/crafts.md)
