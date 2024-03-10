@@ -84,6 +84,7 @@
 
 - [Leptos](web/leptos/README.md)
   - [Basics]()
+  - [Resources](web/leptos/resources.md)
 
 # Database Implementations
 
