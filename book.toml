@@ -9,5 +9,6 @@ title = "Lyn Notebook"
 enable = true
 
 [output.html]
+site-url = "/note/"
 git-repository-url = "https://github.com/Saplyn/saplyn.github.io"
 edit-url-template = "https://github.com/Saplyn/saplyn.github.io/edit/main/{path}"
