@@ -67,7 +67,7 @@
 
 - [JavaScript](web/javascript/README.md)
   - [Basic Syntax](web/javascript/syntax.md)
-  - [Resources]()
+  - [Resources](web/javascript/resources.md)
 
 - [TypeScript](web/typescript/README.md)
   - [Typed JS](web/typescript/type.md)
