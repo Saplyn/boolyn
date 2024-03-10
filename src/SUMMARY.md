@@ -77,8 +77,10 @@
 
 - [CSS]()
 
-- [Vue]()
-  - [Basics]()
+- [Vue](web/vue/README.md)
+  - [Basics](web/vue/basics.md)
+  - [Component](web/vue/component.md)
+  - [Resources](web/vue/resources.md)
 
 - [Leptos](web/leptos/README.md)
   - [Basics]()
