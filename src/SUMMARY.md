@@ -67,7 +67,6 @@
 
 - [JavaScript](web/javascript/README.md)
   - [Basic Syntax](web/javascript/syntax.md)
-  - [Node.js]()
   - [Resources]()
 
 - [TypeScript](web/typescript/README.md)
@@ -76,6 +75,8 @@
 - [HTML]()
 
 - [CSS]()
+
+- [Node.js]()
 
 - [Vue](web/vue/README.md)
   - [Basics](web/vue/basics.md)
