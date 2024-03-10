@@ -70,8 +70,8 @@
   - [Node.js]()
   - [Resources]()
 
-- [TypeScript]()
-  - [Typed JS]()
+- [TypeScript](web/typescript/README.md)
+  - [Typed JS](web/typescript/type.md)
 
 - [HTML]()
 
