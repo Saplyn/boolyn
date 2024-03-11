@@ -102,8 +102,8 @@
 
 # Tools
 
-- [Git]()
-  - [Basics]()
+- [Git](tools/git/README.md)
+  - [Basics](tools/git/basics.md)
 
 - [NeoVim](tools/neovim/README.md)
   - [Neo-Crafts](tools/neovim/crafts.md)
