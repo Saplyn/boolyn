@@ -102,6 +102,8 @@
 
 # Tools
 
+- [Utilities](utilities.md)
+
 - [Git](tools/git/README.md)
   - [Basics](tools/git/basics.md)
 
