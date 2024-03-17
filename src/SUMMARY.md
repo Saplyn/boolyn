@@ -110,6 +110,10 @@
 - [NeoVim](tools/neovim/README.md)
   - [Neo-Crafts](tools/neovim/crafts.md)
 
+- [CMake](tools/cmake/README.md)
+  - [Basics](tools/cmake/basics.md)
+  - [Resources](tools/cmake/resources.md)
+
 - [Docker]()
 
 - [GitHub]()
