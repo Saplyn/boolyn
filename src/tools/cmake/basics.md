@@ -48,8 +48,9 @@ install(TARGETS library_name DESTINATION lib)
 
 ```cmake
 # Linking system installed library
-target_link_libraries(lab lab_lib)
+target_link_libraries(target_name library_name)
 
 # Linking library by path
-target_link_directories(lab PRIVATE ${CMAKE_SOURCE_DIR}/build/)
+target_link_directories(target_name PRIVATE path/to/the/library/)
+target_link_libraries(target_name library_name)
 ```
