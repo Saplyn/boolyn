@@ -24,10 +24,10 @@ project_dir/
 cmake_minimum_required(VERSION 3.22.1)
 project(actual_project_name)
 
-# Build Executable
+# Build executable
 add_executable(executable_name main.cpp)
 
-# Install Binary to PATH
+# Install binary to PATH
 install(TARGETS executable_name DESTINATION bin)
 ```
 
@@ -37,17 +37,19 @@ install(TARGETS executable_name DESTINATION bin)
 cmake_minimum_required(VERSION 3.22.1)
 project(actual_project_name)
 
-# Build Library
+# Build library
 add_library(library_name lib.cpp)
 
-# Install Library to LIBRARY
+# Install library to INCLUDE
 install(TARGETS library_name DESTINATION lib)
 ```
 
 ## Linking Library
 
 ```cmake
-# Linking Library
-target_link_directories(lab PRIVATE ${CMAKE_SOURCE_DIR}/build/)
+# Linking system installed library
 target_link_libraries(lab lab_lib)
+
+# Linking library by path
+target_link_directories(lab PRIVATE ${CMAKE_SOURCE_DIR}/build/)
 ```
