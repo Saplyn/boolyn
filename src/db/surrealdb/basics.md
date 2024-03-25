@@ -5,11 +5,14 @@
 ### Create
 
 ```surql
-# record id field (`id`) is defined by default
+-- record id field (`id`) is defined by default
 DEFINE TABLE person SCHEMAFULL;
 DEFINE FIELD name ON TABLE person TYPE string;
 
-INSERT INTO person (name) VALUES ('John'), ('Jane');
+INSERT INTO person (name) VALUES ("John"), ("Jane");
+INSERT INTO person { name: "John" };
+INSERT INTO person [{ name: "John" }, { name: "Jane" }];
+CREATE person SET name = "John";
 
 DEFINE INDEX idx_name ON TABLE person COLUMNS name;
 ```
