@@ -66,7 +66,7 @@ SELECT * FROM [person]
 INNER JOIN [address]
 ON [person].[person_id] = [address].[person_id];
 
--- `LEFT JOIN` preservs all left table's rows, leaving `NULL` for unmatched rows.
+-- `LEFT JOIN` preserves all left table's rows, leaving `NULL` for unmatched rows.
 -- `RIGHT JOIN` is the opposite.
 SELECT * FROM [person]
 LEFT JOIN [address]
@@ -154,11 +154,11 @@ SELECT -- projection
 FROM [students]
 WHERE NOT EXISTS( -- divisor
     SELECT *
-    FROM [sourses]
+    FROM [courses]
     WHERE NOT EXISTS( -- dividend
         SELECT *
         FROM [enrollments]
-        WHERE [enrollments].[crs_id] = [sourses].[id]
+        WHERE [enrollments].[crs_id] = [courses].[id]
             AND [enrollments].[stu_id] = [students].[id] 
     )
 );
