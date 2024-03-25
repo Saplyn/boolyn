@@ -98,7 +98,7 @@
 
 - [SurrealDB](db/surrealdb/README.md)
   - [Basics](db/surrealdb/basics.md)
-  - [Querying]()
+  - [Querying](db/surrealdb/query.md)
 
 # Tools
 
