@@ -149,3 +149,77 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
     }
 }
 ```
+
+## Type State Pattern
+
+Type state pattern is a design pattern that allows a type to change its behavior
+based on its associated state.
+
+```rust,noplayground
+use std::marker::PhantomData;
+
+// state type
+struct Locked;
+struct Unlocked;
+
+// stateful type (state default to `Locked`)
+struct Safe<State = Locked> {
+    treasure: String,
+    _state: PhantomData<State>, // state marker to satisfy the type system
+}
+
+// `Locked` specialized impl
+impl Safe<Locked> {
+    pub fn unlock(self, _pswd: String) -> Safe<Unlocked> {
+        Safe {
+            treasure: self.treasure,
+            _state: PhantomData,
+        }
+    }
+}
+
+// `Locked` specialized impl (state elided)
+impl Safe {
+    pub fn new() -> Self {
+        Self {
+            treasure: "treasure".to_string(),
+            _state: PhantomData,
+        }
+    }
+}
+
+// `Unlocked` specialized impl
+impl Safe<Unlocked> {
+    pub fn lock(self) -> Safe<Locked> {
+        Safe {
+            treasure: self.treasure,
+            _state: PhantomData,
+        }
+    }
+    pub fn treasure(&self) -> String {
+        self.treasure.clone()
+    }
+}
+
+// state independent impl (shared)
+impl<State> Safe<State> {
+    pub fn version(&self) {}
+    pub fn encryption(&self) {}
+}
+
+fn main() {
+    let safe = Safe::new();
+    safe.version();
+    safe.encryption();
+    // no method named `treasure` found for struct `Safe` in the current scope
+    // safe.treasure();
+
+    let safe = safe.unlock("secret".to_string());
+    safe.version();
+    safe.encryption();
+    safe.treasure();
+
+    let safe = safe.lock();
+}
+
+```
