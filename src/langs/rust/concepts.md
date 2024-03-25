@@ -14,11 +14,11 @@ conflict, as they are in different flows.
 
 ```rust,noplayground
 let mut x = 114;        // #      
-let r = &x;             // +----- &'a x
-if condition {          // +--+
-    x = 514;            // |  +-- &mut x
-} else {                // |
-    println!("{}", r);  // +----- &'a x
+let r = &x;             // ├───── &'a x
+if condition {          // ├──┐
+    x = 514;            // │  └── &mut x
+} else {                // │
+    println!("{}", r);  // └───── &'a x
 }
 ```
 
