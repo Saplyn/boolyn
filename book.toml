@@ -9,6 +9,6 @@ title = "Lyn Notebook"
 enable = true
 
 [output.html]
-site-url = "/lynnotebook/"
-git-repository-url = "https://github.com/Saplyn/lynnotebook"
-edit-url-template = "https://github.com/Saplyn/lynnotebook/edit/main/{path}"
+site-url = "/boolyn/"
+git-repository-url = "https://github.com/Saplyn/boolyn"
+edit-url-template = "https://github.com/Saplyn/boolyn/edit/main/{path}"
