@@ -1,9 +1,15 @@
-# Neo-Crafts
+# NeoVim
 
-## Distro & Startup
+[NeoVim](https://neovim.io/) is a modernized version of Vim. It's a fork of
+Vim, with the goal of improving the codebase and adding new features.
 
-- [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim): A launch point for your personal nvim configuration
-- [LazyVim](https://github.com/LazyVim/LazyVim): A flexible, battery included Neovim distribution.
+## Cheatsheet
+
+- substitute:
+  - `:s/old/new/`: substitute the **first** occurrence of `old` with `new` in the **current line**.
+  - `:s/old/new/g`: substitute **all** occurrences of `old` with `new` in the **current line**.
+  - `:#,#s/old/new/g`: substitute **all** occurrences of `old` with `new` in the **range** of lines.
+  - `:%s/old/new/g`: substitute **all** occurrences of `old` with `new` in the **entire file**.
 
 ## Plugins
 
@@ -17,3 +23,5 @@
 ## Resources
 
 - [dotfyle](https://dotfyle.com/): Discover and share Neovim plugins.
+- [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim): A launch point for your personal nvim configuration
+- [LazyVim](https://github.com/LazyVim/LazyVim): A flexible, battery included Neovim distribution.

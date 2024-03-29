@@ -3,7 +3,7 @@ authors = ["saplyn"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Lyn Notebook"
+title = "[boolyn] Lyn Notebook"
 
 [output.html.fold]
 enable = true

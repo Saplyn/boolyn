@@ -102,13 +102,11 @@
 
 # Tools
 
-- [Utilities](utilities.md)
+- [Tmux](tools/tmux.md)
+- [NeoVim](tools/nvim.md)
 
 - [Git](tools/git/README.md)
   - [Basics](tools/git/basics.md)
-
-- [NeoVim](tools/neovim/README.md)
-  - [Neo-Crafts](tools/neovim/crafts.md)
 
 - [CMake](tools/cmake/README.md)
   - [Basics](tools/cmake/basics.md)
