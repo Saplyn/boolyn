@@ -21,4 +21,16 @@ This page is incomplete and is still being written.
 
 ```
 
-## Record Link & Graph Relation
+## Traversing Relations
+
+```surql
+-- doc notation: embedded record & link
+SELECT
+    name,
+    address.city,
+    address.street
+FROM person;
+
+-- array notation: graph relation
+
+```
