@@ -28,11 +28,13 @@ screen.
   - <kbd>Alt</kbd> + *direction arrow*: Aggressive Resize
   - <kbd>Alt</kbd> + *number*: Apply layout
   - <kbd>x</kbd>: Kill pane
+  - <kbd>,</kbd>: Rename pane
 - Window
   - <kbd>c</kbd>: **C**reate new window
   - <kbd>w</kbd>: **W**indow List
   - <kbd>n</kbd>: **N**ext window
   - <kbd>&</kbd>: Kill window
+  - <kbd>$</kbd>: Rename window
 - Copy mode
   - <kbd>[</kbd>: Enter copy mode
   - (copy mode) *space*: starts copy
