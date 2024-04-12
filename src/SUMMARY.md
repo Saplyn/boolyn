@@ -51,6 +51,11 @@
   - [Resources]()
   - [Libraries Memo]()
 
+- [Flutter](langs/flutter/README.md)
+  - [Dart Basic](langs/flutter/dart.md)
+  - [Dart Classes](langs/flutter/class.md)
+  - [Resources]()
+
 - [Python](langs/python/README.md)
   - [Basic Syntax](langs/python/syntax.md)
   - [Resources]()
