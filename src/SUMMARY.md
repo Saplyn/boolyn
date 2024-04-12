@@ -51,11 +51,6 @@
   - [Resources]()
   - [Libraries Memo]()
 
-- [Flutter](langs/flutter/README.md)
-  - [Dart Basic](langs/flutter/dart.md)
-  - [Dart Classes](langs/flutter/class.md)
-  - [Resources]()
-
 - [Python](langs/python/README.md)
   - [Basic Syntax](langs/python/syntax.md)
   - [Resources]()
@@ -81,14 +76,17 @@
 
 - [CSS]()
 
-- [Vue](web/vue/README.md)
-  - [Basics](web/vue/basics.md)
-  - [Component](web/vue/component.md)
-  - [Resources](web/vue/resources.md)
+## UI Solution
 
-- [Leptos](web/leptos/README.md)
-  - [Basics]()
-  - [Resources](web/leptos/resources.md)
+- [Vue](ui/vue/README.md)
+  - [Basics](ui/vue/basics.md)
+  - [Component](ui/vue/component.md)
+  - [Resources](ui/vue/resources.md)
+
+- [Flutter](ui/flutter/README.md)
+  - [Dart Basic](ui/flutter/dart.md)
+  - [Dart Classes](ui/flutter/class.md)
+  - [Resources]()
 
 # Database Implementations
 
