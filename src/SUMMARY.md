@@ -27,7 +27,7 @@
   - [Pattern Matching](langs/rust/pattern.md)
   - [Function](langs/rust/function.md)
   - [Macros](langs/rust/macros.md)
-  - [Async]()
+  - [Async](langs/rust/async.md)
   - [Modules]()
   - [Concepts](langs/rust/concepts.md)
   - [Resources](langs/rust/resources.md)
