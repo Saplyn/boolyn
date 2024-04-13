@@ -123,3 +123,9 @@
 
 - [GitHub]()
   - [Actions]()
+
+# Misc
+
+- [`.vimrc`](misc/vimrc.md)
+- [`.bashrc`](misc/bashrc.md)
+- [`.tmux.conf`](misc/tmuxconf.md)
