@@ -108,6 +108,7 @@
 - [Linux Utils]()
   - [File & File System]()
   - [User & Admin]()
+  - [Secure Shell]()
 
 - [Tmux](tools/tmux.md)
 - [NeoVim](tools/nvim.md)
