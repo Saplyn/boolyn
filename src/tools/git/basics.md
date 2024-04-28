@@ -112,3 +112,36 @@ git restore <file>
 # Move or rename a file
 git mv <old-file> <new-file>
 ```
+
+## Tagging
+
+Git can tag a specific point in a repo' history as being important.
+
+```sh
+# List existing tags
+git tag
+
+# List tags that matches "v1.8.5*"
+git tag -l "v1.8.5*"
+
+# Create a annotated tag v1.0 with message "First stable release"
+git tag -a v1.0 -m "First stable release"
+
+# Create a lightweight tag v1.4
+git tag v1.4
+
+# Tagging previous commit
+git tag -a v1.2 9fceb02
+
+# Display tag information
+git show v1.4
+
+# Deleting tags
+git tag -d v1.2
+
+# Pushing all tags to remote
+git push origin --tags
+
+# Delete a remote tag
+git push origin --delete v1.2
+```
